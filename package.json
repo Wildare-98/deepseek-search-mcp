@@ -1,0 +1,30 @@
+{
+  "name": "deepseek-search-mcp",
+  "version": "1.0.0",
+  "description": "Local MCP server wrapping DeepSeek Search & Fetch APIs",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "deepseek-search-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "deepseek",
+    "web-search",
+    "ai-agent"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "zod": "^3.25.0"
+  }
+}
